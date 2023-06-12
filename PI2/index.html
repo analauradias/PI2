@@ -25,69 +25,128 @@
 
         h1 {
             font-size: 55px;
-            margin-left: 20px;
+            margin-left: 50px;
             font-family: galileu;
+        
+    
 
 
         }
-
+  
         h2 {
             font-size: 55px;
-            margin-left: 20px;
+            margin-left: 50px;
             font-family: galileu;
-            margin-top: -100px;
+            margin-top: -40px;
+          
         }
 
-        .flex-container {
-            display: flex;
-        }
 
-        .flex-child {
-            flex: 1;
-       
-        }
+        .um{
+            border-radius: 10px/20px;
+            margin-left: 80px;
+            margin-right: 80px;
+            margin-bottom: 30px;
+            margin-top: 10px;
+            width: 300px;
+            
 
-        .flex-child:first-child {
+        }
+        .zero {
+            border-radius: 10px/20px;
+            width: 350px;
+            height: 70%;
             margin-right: 20px;
+            margin-left: 50px;
+        }
+        .dois {
+            border-radius: 10px/20px;
+            margin:10px 10px 10px 10px ;
+            width: 300px;
+            
+
+        }
+
+
+
+        .parent {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+        }
+
+        .div1 {
+            grid-area: 1 / 1 / 4 / 2;
+        }
+
+        .div2 {
+            grid-area: 1 / 2 / 2 / 3;
+        }
+
+        .div3 {
+            grid-area: 1 / 3 / 2 / 4;
+        }
+
+        .div4 {
+            grid-area: 2 / 2 / 3 / 3;
+        }
+
+        .div5 {
+            grid-area: 2 / 3 / 3 / 4;
+        }
+
+        .div6 {
+            grid-area: 3 / 2 / 4 / 3;
+        }
+
+        .div7 {
+            grid-area: 3 / 3 / 4 / 4;
+        }
+
+        .div8 {
+            grid-area: 1 / 4 / 4 / 5;
         }
     </style>
 </head>
 
 <body>
 
-    <h1>ESTUDOS DE</h1>
-    <h2>MATEMÁTICA+</h2>
+    <div class="parent">
+        <div class="div1">
+            <h1>ESTUDOS DE</h1>
+            <h2>MATEMÁTICA+</h2>
+            <a href="graficos.html"><img class="zero" src="PI/imagens/Interpretação_de_graficos.png" alt="GRÁFICOS"></a>
+        </div>
 
+        <div class="div2">
+            <a href="porcentagem.html"><img class="dois" src="PI/Porcentagem.png" alt="porcentagem"></a>
+        </div>
 
+        <div class="div3"> <a href="trigonometria.html"><img class="um" src="PI/Trigonometria.png" alt=""></a></div>
 
+        <div class="div4">
+            <a href="prismas.html"><img class="dois" src="PI//Primas.png" alt="prismas"></a>
+        </div>
 
-    <div>
-        <a href="graficos.html"><img class="flex-child1" src="imagens/imagem_Interpretação_de_graficos.jpg"
-                alt="GRÁFICOS"></a>
+        <div class="div5">
+            <a href="estatisticas.html"><img class="um" src="PI/Estatisticas.png" alt="estatísticas"></a>
+        </div>
+
+        <div class="div6"><a href="porcentagem.html"><img class="dois" src="PI/Porcentagem.png" alt="porcentagem"></a></div>
+        <div class="div7">
+
+            <a href="Sambaquis.html"><img class="um" src="PI/Sambaqui.png" alt="Sambaquis"></a>
+        </div>
+
+        <div class="div8">
+            <video width="500px" height="900px" preload="auto" muted="true" autoplay>
+                <source class="beast" src="PI/imagens/video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
     </div>
-
-    <div>
-        <a href="geometria.html"><img class="" src="imagens/Image_Geometria.jpg" alt="geometria"></a>
-    </div>
-
-    <div>
-        <a href="trigonometria.html"><img class="ola" src="imagens/Trigonometria.jpg" alt=""></a>
-    </div>
-
-    <br>
-
-    <div class="porcentagem">
-        <a href="porcentagem.html"><img src="imagens/Porcentagem.jpg" alt="porcentagem"></a>
-        <a href="estatisticas.html"><img src="imagens/Estatisticas.jpg" alt="estatísticas"></a>
-    </div>
-
-    <br>
-
-    <div class="prismas">
-        <a href="prismas.html"><img src="imagens/Primas.jpg" alt="prismas"></a>
-        <a href="Sambaquis.html"><img src="imagens/Sambaqui.jpg" alt="Sambaquis"></a>
-    </div>
-
 
 
 
