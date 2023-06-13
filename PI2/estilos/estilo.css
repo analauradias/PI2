@@ -1,7 +1,6 @@
 @charset "UTF-8";
-
-body {
-
+body{
+    
     background-color: #333a56;
     color: #e8e8e8;
     font-size: 12pt;
@@ -14,12 +13,3 @@ body {
 }
 
 
-
-
-table,
-tr,
-td {
-    border: 1px solid rgb(255, 255, 255);
-    margin: auto;
-
-}
